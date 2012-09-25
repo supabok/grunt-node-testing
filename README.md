@@ -10,17 +10,17 @@ var palindrode = require('palindrode');
 palindrode.awesome(); // "awesome"
 ```
 
-## Documentation
-_(Coming soon)_
-
 ## Examples
-_(Coming soon)_
+To run tests:
+mkdir 'name'
+cd 'name'
+grunt init:node
 
-## Contributing
-In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [grunt](https://github.com/cowboy/grunt).
+modify 'projectname_test.js' to include the tests you want
+modify 'projectname.js' to pass the tests
 
-## Release History
-_(Nothing yet)_
+grunt test
+
 
 ## License
 Copyright (c) 2012 supabok  
