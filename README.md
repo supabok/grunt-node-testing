@@ -12,11 +12,15 @@ palindrode.awesome(); // "awesome"
 
 ## Examples
 To run tests:
+
 mkdir 'name'
+
 cd 'name'
+
 grunt init:node
 
 modify 'projectname_test.js' to include the tests you want
+
 modify 'projectname.js' to pass the tests
 
 grunt test
