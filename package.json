@@ -1,0 +1,34 @@
+{
+  "name": "palindrode",
+  "description": "test node+grunt",
+  "version": "0.1.0",
+  "homepage": "https://github.com/erickp/palindrode",
+  "author": {
+    "name": "supabok",
+    "email": "superbok@superbokbok.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/erickp/palindrode.git"
+  },
+  "bugs": {
+    "url": "https://github.com/erickp/palindrode/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/erickp/palindrode/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/palindrode",
+  "engines": {
+    "node": ">= 0.8"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt": "~0.3.15"
+  },
+  "keywords": []
+}
